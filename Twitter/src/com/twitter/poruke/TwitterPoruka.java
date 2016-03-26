@@ -1,7 +1,7 @@
 package com.twitter.poruke;
 /**
  * Klasa koja predstavlja twitter poruku. Svaka poruka ima korisnika i tekst.
- * @author korisnik
+ * @author Ana Milic
  *
  */
 
@@ -19,7 +19,7 @@ public class TwitterPoruka {
 	
 	/**
 	 * Metoda vraca vrednost atributa korisnik
-	 * @return
+	 * @return naziv korisnika
 	 */
 	public String getKorisnik() {
 	return korisnik;
@@ -43,7 +43,7 @@ public class TwitterPoruka {
 	
 	/**
 	 * Metoda vraca vrednost atributa poruka.
-	 * @return
+	 * @return tekst poruke
 	 */
 	public String getPoruka() {
 		//2.greska "poruka"
