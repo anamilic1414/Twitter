@@ -71,9 +71,13 @@ public class TwitterPorukaTest {
 
 	@Test
 	public void testToString() {
-		tp.setKorisnik("Ana Milic");
-		tp.setPoruka("Dobar dan!");
-		System.out.println(tp);
+		String korisnik = "Ana Milic";
+		String poruka = "Dobar dan!";
+		tp.setKorisnik(korisnik);
+		tp.setPoruka(poruka);
+		String tacno = "KORISNIK:"+korisnik+" PORUKA:"+poruka;
+		assertEquals(tacno, tp.toString());
+		
 	}
 
 }
